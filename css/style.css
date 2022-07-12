@@ -1,7 +1,7 @@
 :root {
   --accent-color: #212121;
   --fon-color: #2196f3;
-  --back-color: #2f303a;
+  --section-color: #2f303a;
   --title-color:#ffffff;
   --contact-color:#757575;
   --back-color: #f5f4fa;
@@ -30,10 +30,6 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--fon-color);
-}
-
-.current {
-color: #2196F3;
 }
 
 
@@ -69,12 +65,16 @@ color: #2196F3;
   color: var(--fon-color);
 }
 
+.current {
+  color: #2196F3;
+}
+
 /* =========== /HEADER ========== */
 
 /* ========== HERO ========== */
 
 .hero {
-  background: var(--back-color);
+  background: var(--section-color);
 }
 
 .page-title {
@@ -174,7 +174,7 @@ color: #2196F3;
 /* ========== FOOTER ========== */
 
 .page-footer {
-  background: var(--back-color);
+  background: var(--section-color);
 }
 
 .studio-white {
@@ -244,6 +244,11 @@ color: #2196F3;
 .portfolio-blocks {
   background: var(--title-color);
   border: 1px solid #eeeeee;
+}
+
+button .current {
+  color: #FFFFFF;
+  background: #2196F3;
 }
 
 /* ========== /PORTFOLIO ==========*/
